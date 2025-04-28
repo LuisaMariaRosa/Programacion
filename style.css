@@ -1,0 +1,59 @@
+h1{
+    font-family: "Oswald", sans-serif;
+    color: black;
+    text-align: left;
+ } 
+ h3{
+    font-family:  "Special Gothic Condensed One", sans-serif;
+    color: rgb(3, 133, 143);
+    text-align: left;
+}
+
+h2{
+    font-family:  "Special Gothic Condensed One", sans-serif;
+    color: rgb(212, 0, 64);
+    text-align: left;
+}
+
+button {
+    font-family: "Oswald", sans-serif;
+    background-color: #ff00c8;
+    color: rgb(251, 255, 0);
+    padding: 05px 10px;
+    text-decoration: solid;
+    cursor: pointer;
+    border: none;
+}
+
+table {
+    font-family: "Oswald", sans-serif
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(221, 133, 0);
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+  }
+  
+  caption {
+    padding: 10px;
+  }
